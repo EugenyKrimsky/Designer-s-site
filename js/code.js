@@ -20,4 +20,19 @@ $(document).ready(function() {
     $('.burger,.nav-container').toggleClass('active');
     $('body').toggleClass('lock')
   })
+  $('.slider').slick({
+    arrows: true,
+    dots: true,
+    adaptiveHeight: true, 
+    autoplay: true,
+    waitForAnimate: false,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          arrows: false,
+        }        
+      }
+    ],
+  });
 })

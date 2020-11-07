@@ -110,15 +110,17 @@
         <section id="portfolio">
             <div class="wrapper portfolio_container">
                 <h3 class="portfolio_h3">Portfolio</h3>
-                <img src="img/portfolio1.jpg" alt="img" class="portfolio_big portfolio1">
-                <img src="img/portfolio1_little.jpg" alt="img" class="portfolio_little portfolio1_little">
-                <a href="#" class="portfolio_a">Online fashion store - Homepage</a>
-                <img src="img/portfolio2.jpg" alt="img" class="portfolio_big  portfolio2">
-                <img src="img/portfolio2_little.jpg" alt="img" class="portfolio_little portfolio2_little">
-                <a href="#" class="portfolio_a">Reebok Store - Concept</a>
-                <img src="img/portfolio3.jpg" alt="img" class="portfolio_big  portfolio3">
-                <img src="img/portfolio3_little.jpg" alt="img" class=" portfolio_little portfolio3_little">
-                <a href="#" class="portfolio_a">Braun Landing Page - Concept</a>
+                <div class="slider">
+                    <div class="slider__item">
+                        <img src="img/portfolio1.jpg" alt="img" class="portfolio_big portfolio1">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/portfolio2.jpg" alt="img" class="portfolio_big  portfolio2">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/portfolio3.jpg" alt="img" class="portfolio_big  portfolio3">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -128,7 +130,7 @@
                 <h3 class="contacts_h3">Contacts</h3>
                 <p class="contacts_p">Want to know more or just chat? <br>
                     You are welcome!</p>
-                <button>Send message</button>
+                <button class="btn-send">Send message</button>
             </div>
             <div class="flex-container imgs_container">
                 <a href="#"><img src="img/in.svg" alt="in" class="contacts_items"></a>
@@ -140,7 +142,7 @@
                 LinkedIn, Instagram, Behance, Dribble</p>
         </div>
     </footer>
-    
+    <script src="js/slick.min.js"></script>
     <script src="js/code.js"></script>
 </body>
 </html>
