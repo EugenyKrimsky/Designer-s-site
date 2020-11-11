@@ -1,6 +1,7 @@
+'use strict';
 $(document).ready(function() {
   $('a').click(function() {
-    let scrollingTo = $(this).attr('href')
+    let scrollingTo = $(this).attr('href');
     if (scrollingTo !== '#home') {
       $('html, body').animate({
         scrollTop: $(scrollingTo).offset().top
@@ -14,11 +15,11 @@ $(document).ready(function() {
   });
   $('.burger').click(function(event) {
     $('.burger,.nav-container').toggleClass('active');
-    $('body').toggleClass('lock')
+    $('body').toggleClass('lock');
   })
   $('.nav_a').click(function(event) {
     $('.burger,.nav-container').toggleClass('active');
-    $('body').toggleClass('lock')
+    $('body').toggleClass('lock');
   })
   $('.slider').slick({
     arrows: true,
