@@ -1442,94 +1442,94 @@ body.lock {
         -ms-transform: translate(0px, 0px);
             transform: translate(0px, 0px);
   }
-
-  /*footer*/
-  .flex-container.imgs_container a {
-    -webkit-transform: translate(100%, 0px);
-        -ms-transform: translate(100%, 0px);
-            transform: translate(100%, 0px);
-    -webkit-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    opacity: 0;
-  }
-
-  .flex-container.imgs_container._active a:nth-child(1) {
-    -webkit-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 1s;
-         -o-transition-duration: 1s;
-            transition-duration: 1s;
-    -webkit-transition-timing-function: ease;
-         -o-transition-timing-function: ease;
-            transition-timing-function: ease;
-    -webkit-transition-delay: 0s;
-         -o-transition-delay: 0s;
-            transition-delay: 0s;
-    opacity: 1;
-    -webkit-transform: translate(0px, 0px);
-        -ms-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
-  }
-
-  .flex-container.imgs_container._active a:nth-child(2) {
-    -webkit-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 1s;
-         -o-transition-duration: 1s;
-            transition-duration: 1s;
-    -webkit-transition-timing-function: ease;
-         -o-transition-timing-function: ease;
-            transition-timing-function: ease;
-    -webkit-transition-delay: 0.2s;
-         -o-transition-delay: 0.2s;
-            transition-delay: 0.2s;
-    opacity: 1;
-    -webkit-transform: translate(0px, 0px);
-        -ms-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
-  }
-
-  .flex-container.imgs_container._active a:nth-child(3) {
-    -webkit-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 1s;
-         -o-transition-duration: 1s;
-            transition-duration: 1s;
-    -webkit-transition-timing-function: ease;
-         -o-transition-timing-function: ease;
-            transition-timing-function: ease;
-    -webkit-transition-delay: 0.4s;
-         -o-transition-delay: 0.4s;
-            transition-delay: 0.4s;
-    opacity: 1;
-    -webkit-transform: translate(0px, 0px);
-        -ms-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
-  }
-
-  .flex-container.imgs_container._active a:nth-child(4) {
-    -webkit-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 1s;
-         -o-transition-duration: 1s;
-            transition-duration: 1s;
-    -webkit-transition-timing-function: ease;
-         -o-transition-timing-function: ease;
-            transition-timing-function: ease;
-    -webkit-transition-delay: 0.6s;
-         -o-transition-delay: 0.6s;
-            transition-delay: 0.6s;
-    opacity: 1;
-    -webkit-transform: translate(0px, 0px);
-        -ms-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
-  }
 }
+/*footer*/
+.flex-container.imgs_container a {
+  -webkit-transform: translate(100%, 0px);
+      -ms-transform: translate(100%, 0px);
+          transform: translate(100%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+}
+
+.flex-container.imgs_container._active a:nth-child(1) {
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.flex-container.imgs_container._active a:nth-child(2) {
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.flex-container.imgs_container._active a:nth-child(3) {
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.flex-container.imgs_container._active a:nth-child(4) {
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
 @media (max-width: 750px) {
   .introduce_h3 {
     -webkit-transform: translate(1px, 1px);
