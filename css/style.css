@@ -808,9 +808,6 @@ nav {
   color: #828282;
   padding-bottom: 123px;
 }
-body.lock {
-  overflow: hidden !important;
-}
 @media (max-width: 960px) {
   .introduce .wrapper {
     padding: 0 20px;
@@ -1496,6 +1493,9 @@ body.lock {
 }
 
 @media (max-width: 750px) {
+  body.lock {
+    overflow: hidden !important;
+  }
   .introduce_h3 {
     -webkit-transform: translate(1px, 1px);
         -ms-transform: translate(1px, 1px);
