@@ -352,7 +352,7 @@ h1 {
   margin: 0;
 }
 
-/*                                     */
+/*=============================================================================*/
 @font-face {
   font-family: Gilroy-Medium;
   src: url(../fonts/Gilroy-Medium.ttf);
@@ -366,7 +366,6 @@ body {
   font-size: 18px;
   color: #070707;
   background-color: #fff;
-  overflow: hidden;
 }
 
 main {
@@ -460,7 +459,7 @@ nav {
   color: #070707;
 }
 
-/* introduce */
+/* Introduce */
 .introduce_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -527,7 +526,7 @@ nav {
   display: none;
 }
 
-/* about */
+/* About */
 #about {
   background-color: #F6F6F6;
 }
@@ -552,7 +551,7 @@ nav {
   padding-bottom: 107px;
 }
 
-/* skills */
+/* Skills */
 .skills_container {
   text-align: center;
 }
@@ -601,7 +600,7 @@ nav {
   margin-bottom: 56px;
 }
 
-/* portfolio */
+/* Portfolio */
 #portfolio {
   background-color: #F6F6F6;
   padding: 0 0 90px;
@@ -618,20 +617,14 @@ nav {
   padding-top: 112px;
   margin-bottom: 47px;
 }
-
 .portfolio_little {
   display: none;
 }
 
-/* Слайдер */
-/* Слайдер запущен */
-/* Слайдер с точками */
-/* Ограничивающая оболочка */
+/* Slider */
 .slick-list {
   overflow: hidden;
 }
-
-/* Лента слайдов */
 .slick-track {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -650,18 +643,9 @@ nav {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-/* Слайд */
-/* Слайд активный (показывается) */
-/* Слайд основной */
-/* Слайд по центру */
-/* Клонированный слайд */
-/* Слайдер */
 .slider {
   position: relative;
 }
-
-/* Стрелка */
 .slick-arrow {
   position: absolute;
   top: 50%;
@@ -675,21 +659,14 @@ nav {
 .slick-arrow:hover {
   cursor: pointer;
 }
-
-/* Стрелка влево */
 .slick-arrow.slick-prev {
   left: 1%;
   background: url("../img/prev.svg") 0 0/100% no-repeat;
 }
-
-/* Стрелка вправо */
 .slick-arrow.slick-next {
   right: 1%;
   background: url("../img/next.svg") 0 0/100% no-repeat;
 }
-
-/* Стрелка не активная */
-/* Точки (булиты) */
 .slick-dots {
   position: absolute;
   right: 50%;
@@ -704,14 +681,11 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .slick-dots li {
   list-style: none;
   outline: none;
   margin: 0 10px;
 }
-
-/* Активная точка */
 .slick-dots li.slick-active button {
   background-color: #adacac;
   outline: none;
@@ -719,8 +693,6 @@ nav {
   height: 14px;
   border: none;
 }
-
-/* Элемент точки */
 .slick-dots li button {
   opacity: 0.7;
   -webkit-transition: 0.3s;
@@ -740,7 +712,7 @@ nav {
   outline: none;
 }
 
-/* footer */
+/* Footer */
 .footer_wrapper {
   text-align: center;
   max-width: 430px;
@@ -812,7 +784,6 @@ nav {
   background: #c7c7c7;
   cursor: pointer;
 }
-
 .contacts_btn:hover {
   background: #fff;
   color: #070707;
@@ -820,27 +791,26 @@ nav {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-
 .contacts_btn:focus {
   outline: none;
   -webkit-box-shadow: 0 0 0 4px #ebe9e9;
           box-shadow: 0 0 0 4px #ebe9e9;
 }
-
 .imgs_container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 46px;
 }
-
 .footer_p {
   font-size: 14px;
   line-height: 17px;
   color: #828282;
   padding-bottom: 123px;
 }
-
+body.lock {
+  overflow: hidden !important;
+}
 @media (max-width: 960px) {
   .introduce .wrapper {
     padding: 0 20px;
@@ -896,10 +866,6 @@ nav {
     padding-left: 40px;
   }
 }
-body.lock {
-  overflow: hidden !important;
-}
-
 @media (max-width: 750px) {
   .introduce_img {
     width: 317px;
@@ -1076,7 +1042,7 @@ body.lock {
 }
 /*Preloader*/
 .preloader {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -1089,7 +1055,6 @@ body.lock {
   opacity: 1;
   visibility: visible;
 }
-
 .preloader.done {
   opacity: 0;
   visibility: hidden;

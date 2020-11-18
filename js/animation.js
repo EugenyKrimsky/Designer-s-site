@@ -26,6 +26,7 @@ function image_loaded() {
 			//if you want the preloader not to hide (for development), remove the "!" in condition
 			if (!preloader.classList.contains('done')) {
 				preloader.classList.add('done');
+				window.scrollTo(0, 0);
 				page_body.overflow = 'visible';
 			}
 		}, 1000);//preloader delay (preloader will skip after 1000 ms)
